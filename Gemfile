@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 ruby '2.3.3'
 #ruby-gemset=railstutorial_rails_4_0
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
 
@@ -35,10 +34,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 group :doc do
-  gem 'sdoc', require: false
+	gem 'sdoc', require: false
 end
 
 group :production do
-  gem 'pg'
-  gem 'rails_12factor'
+	gem 'pg'
+	gem 'rails_12factor'
 end

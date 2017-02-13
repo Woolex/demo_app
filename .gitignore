@@ -17,13 +17,15 @@
 !/log/.keep
 !/tmp/.keep
 
-# игнорирование прочих ненужных файлов
+# Ignore Byebug command history file.
+.byebug_history
+
+# Игнорирование прочих ненужных файлов
 database.yml
 doc/
 *.swp
 *~
 .project
-.DS_store
+.DS_Store
 .idea
 .secret
-
